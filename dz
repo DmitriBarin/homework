@@ -7,7 +7,7 @@ while index < siz:
     if numbers[index] > maximum:
         maximum = numbers[index]
         count_maximal = 1
-    else
+    else:
         if numbers[index] == maximum:
             count_maximal = count_maximal + 1
     index = index + 1
